@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Take Economy — a magazine that shows its work</title>
+<meta name="description" content="The Take Economy is a box-based digital magazine from SignalPoint Media Group: issues you can read, watch, or listen to, with a ranking algorithm you can see and tune. Now in development." />
+<link rel="canonical" href="https://thetakeeconomy.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The Take Economy" />
+<meta property="og:description" content="A box-based digital magazine where the algorithm is visible and the facts come before the takes. Now in development." />
+<meta property="og:url" content="https://thetakeeconomy.com/" />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23161412'/%3E%3Crect x='5' y='5' width='13' height='22' fill='%23e8e2d6'/%3E%3Crect x='20' y='5' width='7' height='10' fill='%23d6402b'/%3E%3Crect x='20' y='17' width='7' height='10' fill='%23e8e2d6'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Periodical",
+  "name": "The Take Economy",
+  "url": "https://thetakeeconomy.com/",
+  "description": "A box-based digital magazine from SignalPoint Media Group. Now in development.",
+  "publisher": { "@type": "Organization", "name": "SignalPoint Media Group", "url": "https://signalpointmedia.com" }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead__row">
+    <span class="label">Vol. 00 &middot; Preview issue</span>
+    <nav aria-label="Sections">
+      <a href="#boxes">The boxes</a>
+      <a href="#algorithm">The algorithm</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="nav-cta" href="#notify">Get issue one</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- COVER -->
+  <section class="cover wrap" aria-labelledby="cover-title">
+    <div class="nameplate">
+      <span class="nameplate__the">The</span>
+      <h1 id="cover-title" class="nameplate__word">Take Economy</h1>
+    </div>
+    <div class="cover__grid">
+      <div class="box box--lead">
+        <span class="box__tag">Cover story</span>
+        <div class="cover__art" aria-hidden="true">
+          <span class="a1">Feature</span><span class="a2">Photo</span><span class="a3">Quote</span><span class="a4">Dossier</span><span class="a5">Audio</span><span class="a6">Ad</span>
+        </div>
+        <div>
+        <p class="cover__head">Everyone has a take. Few show their work.</p>
+        <p class="cover__deck">We're building a digital magazine for the attention age. Facts are settled before the arguing starts, and the algorithm deciding what you see is printed right on the page.</p>
+        <a class="btn" href="#notify">Get notified when issue one ships</a>
+        </div>
+      </div>
+      <div class="box box--status">
+        <span class="box__tag">Status</span>
+        <p class="status__big">In development</p>
+        <p class="small">Architecture spec written. Working front-end prototype built. Issue one is next.</p>
+      </div>
+      <div class="box box--quote">
+        <p class="quote">&ldquo;The site is the magazine.&rdquo;</p>
+        <span class="label">Design principle no. 1</span>
+      </div>
+      <div class="box box--index">
+        <span class="box__tag">In this preview</span>
+        <ol class="toc">
+          <li><a href="#idea"><span>01</span> The idea</a></li>
+          <li><a href="#boxes"><span>02</span> Everything is a box</a></li>
+          <li><a href="#modes"><span>03</span> Have it your way</a></li>
+          <li><a href="#algorithm"><span>04</span> The algorithm is a box</a></li>
+          <li><a href="#roadmap"><span>05</span> The build</a></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDEA -->
+  <section id="idea" class="section wrap spread">
+    <div class="spread__label">
+      <span class="label">01 &middot; The idea</span>
+      <h2>Print got the layout right. The web made everything else possible.</h2>
+    </div>
+    <div class="spread__body">
+      <p class="dropcap">Pick up an old magazine, even a scanned one, and you already know how to read it. Feature on the left, photo on the right, pull quote breaking the column, ad in the corner. Every page is a set of boxes, and readers have understood that layout for a century.</p>
+      <p>Scans lose what the web does well: links, selectable text, search, sound, motion. The Take Economy keeps the magazine's layout and builds it on modern web tools. Issues are discrete and collectible, something you look forward to. And every page is live content, not a picture of one.</p>
+      <p>The name refers to the attention economy we all live in now, where a take spreads faster than the facts behind it. Our job is media literacy: helping readers agree on the facts first, then argue about what to do with them.</p>
+    </div>
+  </section>
+
+  <!-- BOXES -->
+  <section id="boxes" class="section section--ink" aria-labelledby="boxes-title">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="label">02 &middot; Everything is a box</span>
+        <h2 id="boxes-title">One building block. Every kind of story.</h2>
+        <p>The box is the basic unit of the magazine. Each box type knows how to lay itself out. When we improve how dossiers look, every dossier in the archive improves with it.</p>
+      </div>
+      <div class="boxgrid">
+        <article class="tile tile--feature">
+          <span class="tile__type">Feature</span>
+          <h3>Long-form reporting</h3>
+          <p>The cover story. Columns, pull quotes, and images placed by the box's own layout rules.</p>
+        </article>
+        <article class="tile tile--dossier">
+          <span class="tile__type">Dossier</span>
+          <h3>The receipts</h3>
+          <p>Multi-source investigations with timelines and a citation block for every claim.</p>
+        </article>
+        <article class="tile">
+          <span class="tile__type">Interview</span>
+          <h3>In their words</h3>
+          <p>Conversations you can read, or play as the original audio.</p>
+        </article>
+        <article class="tile">
+          <span class="tile__type">Field note</span>
+          <h3>From the ground</h3>
+          <p>Short dispatches with a place, a date, and a point.</p>
+        </article>
+        <article class="tile tile--accent tile--wide">
+          <span class="tile__type">Video &amp; audio</span>
+          <h3>Embedded right</h3>
+          <p>A vertical Short sits in a vertical box. Each box matches the shape of its source.</p>
+        </article>
+        <article class="tile">
+          <span class="tile__type">Gallery</span>
+          <h3>Deep zoom</h3>
+          <p>Zoom in on any image box directly, without a pop-up.</p>
+        </article>
+        <article class="tile">
+          <span class="tile__type">Pull quote</span>
+          <h3>The line that matters</h3>
+          <p>One line from the story, set in its own box.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODES -->
+  <section id="modes" class="section wrap" aria-labelledby="modes-title">
+    <div class="section__head">
+      <span class="label">03 &middot; Have it your way</span>
+      <h2 id="modes-title">Read it, watch it, or listen to it. You choose for each box.</h2>
+      <p>Presentation is set on each box, not for the whole site. Read the feature, listen to the interview on your commute, watch the field note.</p>
+    </div>
+    <div class="modes" role="group" aria-label="Choose a reading mode">
+      <button class="mode is-on" data-mode="read" aria-pressed="true">Read</button>
+      <button class="mode" data-mode="watch" aria-pressed="false">Watch</button>
+      <button class="mode" data-mode="listen" aria-pressed="false">Listen</button>
+      <button class="mode" data-mode="both" aria-pressed="false">Listen while reading</button>
+    </div>
+    <div class="modebox" aria-live="polite">
+      <span class="tile__type" id="mode-type">Read</span>
+      <p id="mode-copy">Selectable, searchable text with real links, typeset by the box's own layout rules.</p>
+    </div>
+    <div class="turns">
+      <div>
+        <h3>Scroll turns the page</h3>
+        <p>Scroll down for the next page, up for the previous one. You get the feel of flipping through an issue, and every page is still live and linkable.</p>
+      </div>
+      <div>
+        <h3>Issues worth collecting</h3>
+        <p>Each issue comes out complete, like a print edition, rather than as an endless feed.</p>
+      </div>
+      <div>
+        <h3>Fast and findable</h3>
+        <p>Every issue is built as static HTML that search engines can index. The page doesn't jump around while you read.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALGORITHM -->
+  <section id="algorithm" class="section section--paper2" aria-labelledby="algo-title">
+    <div class="wrap algo">
+      <div class="algo__text">
+        <span class="label">04 &middot; The algorithm is a box</span>
+        <h2 id="algo-title">You can see the algorithm. You can adjust it.</h2>
+        <p>In the archive, a story's size reflects how much attention readers keep giving it. A three-year-old piece that people still read stays big. Stories nobody visits shrink. An editorial floor stops the most popular boxes from crowding out everything else.</p>
+        <p>The ranking logic is also a box, on the front page, where you can see it. It lists every signal we collect, and you can adjust it.</p>
+        <ul class="signals" aria-label="Signals we plan to use">
+          <li>Time spent on a story</li>
+          <li>Read, watch, or listen choice</li>
+          <li>Zoom interactions</li>
+          <li>Issue completion</li>
+        </ul>
+        <p class="small"><strong>What we don't collect:</strong> no third-party trackers and no cross-site tracking. We collect only our own aggregate signals and list every one.</p>
+      </div>
+
+      <div class="algo__demo box" aria-labelledby="demo-title">
+        <div class="demo__bar">
+          <span class="box__tag" id="demo-title">Algorithm box &middot; demo</span>
+          <span class="label">size = floor &times; attention</span>
+        </div>
+        <div class="demo__grid" id="demo-grid" aria-live="polite"></div>
+        <div class="demo__controls">
+          <label>Attention weight <output id="w-out">50</output>
+            <input type="range" id="w" min="0" max="100" value="50" />
+          </label>
+          <label>Decay over time <output id="d-out">40</output>
+            <input type="range" id="d" min="0" max="100" value="40" />
+          </label>
+          <label>Editorial floor <output id="f-out">On</output>
+            <input type="checkbox" id="f" checked />
+          </label>
+        </div>
+        <p class="small demo__note">Example stories and made-up values. The real weights and decay curve haven't been set. The layout only changes when you move a control.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="section wrap" aria-labelledby="road-title">
+    <div class="section__head">
+      <span class="label">05 &middot; The build</span>
+      <h2 id="road-title">What we're building, in order.</h2>
+      <p>Five phases from our architecture spec, listed in build order.</p>
+    </div>
+    <ol class="road">
+      <li class="road__item is-active">
+        <span class="road__n">1</span>
+        <div><h3>The box system and page turning</h3><p>Static box layouts with scroll-to-turn-page navigation.</p></div>
+        <span class="pill pill--live">Prototype built</span>
+      </li>
+      <li class="road__item">
+        <span class="road__n">2</span>
+        <div><h3>Media in every box</h3><p>Video, audio, slideshows, read-aloud, and deep zoom, each built into the box.</p></div>
+        <span class="pill">Planned</span>
+      </li>
+      <li class="road__item">
+        <span class="road__n">3</span>
+        <div><h3>The attention engine</h3><p>Box sizes driven by reader attention, with a decay curve and an editorial floor.</p></div>
+        <span class="pill">Planned</span>
+      </li>
+      <li class="road__item">
+        <span class="road__n">4</span>
+        <div><h3>Live authoring</h3><p>An AI-assisted Box Builder for our editors. Only editors use it, not readers.</p></div>
+        <span class="pill">Planned</span>
+      </li>
+      <li class="road__item">
+        <span class="road__n">5</span>
+        <div><h3>The algorithm box, v2</h3><p>The full reader-facing control panel for ranking.</p></div>
+        <span class="pill">Planned</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- NOTIFY -->
+  <section id="notify" class="section section--ink notify" aria-labelledby="notify-title">
+    <div class="wrap notify__inner">
+      <span class="label">Subscribe</span>
+      <h2 id="notify-title">Be there for issue one.</h2>
+      <p>Want to know when it ships, or want to write, report, or partner with us? Send us a note.</p>
+      <a class="btn btn--light" href="mailto:cmattis@signalpointmedia.com?subject=The%20Take%20Economy%20%E2%80%94%20notify%20me">Email us</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <span><strong>The Take Economy</strong> is published by <a href="https://signalpointmedia.com">SignalPoint Media Group</a>, Phoenixville, Pennsylvania.</span>
+    <span class="label">&copy; 2026</span>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
