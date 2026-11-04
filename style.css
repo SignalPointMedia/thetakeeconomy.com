@@ -165,6 +165,7 @@ p { max-width: 64ch; text-wrap: pretty; }
 .tile--accent .tile__type, .tile--accent p { color: #fff; }
 
 /* Modes */
+.preview-tag { display: block; margin-bottom: .6rem; }
 .modes { display: flex; flex-wrap: wrap; gap: 0; border: 1.5px solid var(--ink); width: fit-content; max-width: 100%; }
 .mode { background: transparent; border: 0; border-right: 1.5px solid var(--ink); padding: .75rem 1.1rem; cursor: pointer; font-family: var(--f-mono); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: .08em; }
 .mode:last-child { border-right: 0; }
